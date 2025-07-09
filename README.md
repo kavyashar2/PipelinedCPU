@@ -1,4 +1,4 @@
-# PipelinedCPU
+# Pipelined 32-bit CPU
 This project involves the structural design and implementation of a pipelined 32-bit CPU that supports the SCU Instruction Set Architecture (ISA), developed using the Verilog Hardware Description Language (HDL). 
 
 The CPU executes 13 custom instructions, including basic arithmetic, memory operations, branching, jumps, and a special MIN instruction for retrieving the minimum value across a memory segment. Our implementation includes a fully functional datapath, control unit with truth table, instruction and data memory modules, and a testbench framework for simulation. The CPU is tested using two benchmark assembly programs: one for computing the minimum of an array and another for vector addition. The design is verified through waveform analysis and evaluated for performance based on instruction count and total cycles with respect to input size.
